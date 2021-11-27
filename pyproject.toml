@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["tgkuo <tgkuo1@gmail.com>"]
+description = ""
+name = "yjclinic"
+version = "0.1.0"
+[tool.poetry.dependencies]
+Django = "^1.7"
+argparse = "^1.2.1"
+chardet = "^2.2.1"
+mock = "^1.0.1"
+ply = "^3.4"
+python = "^3.8"
+simplejson = "^3.5.2"
+urllib3 = ">=1.26.7"
+wsgiref = "^0.1.2"
+xlrd = "^0.9.3"
+[tool.poetry.dev-dependencies]
